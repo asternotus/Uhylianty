@@ -1,0 +1,145 @@
+background: taxi_bg.png
+date: 23 февраля 2022 года
+music: STOP
+description: Это был холодный февральский вечер. День рождения Макса.
+
+music: music/relax_theme.mp3
+description: Мы с Инной взяли такси и мчались в другой конец города.
+
+description: Инна смотрела в окно, её мысли, казалось, были далеко.
+
+image: chars/kostya.png
+description: Ты как, в норме?
+
+image: chars/inna.png
+description: Да всё про переезд думаю. Не представляю как мы будем жить в Европе.
+
+image: chars/kostya.png
+description: Понимаю, но мы ведь уже давно хотели. Если не решимся сейчас — будем всю жизнь откладывать.
+
+description: Она кивнула, а затем снова ушла в себя.
+
+background: lazer_tag_reception_bg.png
+description: Мы были уверены, что прибудем последними, а оказалось, что даже Максим ещё не на месте.
+
+image: chars/inna.png
+description: Зато не нужно ни перед кем оправдываться.
+
+description: Недовольный организатор игр в лазер-таге уже несколько раз подходил к нам, а мы только разводили руками.
+
+description: Нам удалось начать только через полчаса.
+
+image: story_chars/laser_tag_org.png
+description: Надеюсь это все?
+
+image: story_chars/arine.png
+description: Я дико извиняюсь, но мне срочно нужно в уборную!
+
+image: story_chars/alex.png
+description: И мне!
+
+image: story_chars/laser_tag_org.png
+description: Ох...
+
+description: Кажется не так этот человек себе представлял конец рабочего дня.
+
+background: lazer_tag_bg.png
+description: Никто из нас не был раньше в лазер-таге больше трёх раз.
+
+description: Поэтому, мы скорее просто бегали по лабиринту и развлекались как могли.
+
+description: Пытались найти недоступные для противников углы, выхватить друг у друга оружие...
+
+description: В итоге всем было весело, настолько, что и результаты часового противостояния мало кого волновали.
+
+background: street_first_bg.png
+description: После игры мы вызвали такси.
+
+image: story_chars/taxi_driver.png
+description: Вы издеваетесь? 6 человек? Думаете у меня автобус?
+
+image: story_chars/alex.png
+description: А я говорила две машины нужно!
+
+image: chars/kostya.png
+description: Мы можем это как-то решить, если доплатим?
+
+description: Водитель смерил нас недовольным взглядом, а затем тяжело вздохнул.
+
+image: chars/taxi_driver.png
+description: Да садитесь уже, только придумайте как.
+
+description: Мы кое-как встиснулись, превращая такси в маршрутку, и отправились домой.
+
+background: near_home_bg.png
+description: Когда мы приехали, услышали, что соседи на весь двор поют гимн Украины.
+
+description: Не особо частое явление в Одессе, особенно без какого-либо повода.
+
+image: chars/kostya.png
+description: Интересно, они бухие, или какой-то праздник?
+
+image: chars/max.png
+description: Моя днюха, очевидно.
+
+background: inna_room_bg.png
+description: Вскоре, мы уже все разместились в комнате Инны.
+
+description: Макс раздобыл несколько настолок, но почти в каждой нужно было разбираться с запутанными правилами.
+
+description: Поэтому мы быстро сдались и решили попробовать "Бункер" 
+
+description: Игроки должны путём дискуссий решить кто именно останется в бункере.
+
+description: Каждый может раскрывать по одному аспекту своей личности за раз.
+
+image: story_chars/kolya.png
+description: Я вор!
+
+image: chars/inna.png
+description: А я голосую, чтобы вора в нашем бункере не было.
+
+image: story_chars/kolya.png
+description: Обоснуй.
+
+image: story_chars/arine.png
+description: В смысле "обоснуй"? Зачем нам вор в бункере?
+
+image: story_chars/kolya.png
+description: Как зачем? Так вы никогда не потеряете свои вещи. Если вещь пропала — не надо её долго искать. Она у меня.
+
+description: Попытка была хорошей, но, к сожалению, от голосования не спасло.
+
+description: Затем нас покинула Саша.
+
+description: Потом Арина.
+
+description: И вот, мы остались втроём.
+
+description: Извращенец техник с мешком картошки, Инна -  учёный, маньяк с пистолетом...
+
+description: А также Макс - скалолаз, с тактическим рюкзаком и пристрастием подходитть к людям со спины и глубоко дышать.
+
+image: chars/kostya.png
+description: А надо было оставлять вора!
+
+description: Мы закончили играть примерно в час ночи. Осталось только провести остальных
+
+image: chars/max.png
+description: Напишите как доберётесь!
+
+description: Друзья почти одновременно кивнули и покинули нашу квартиру.
+
+background: room_bg.png
+music: STOP
+description: Инна с Максом уснули практически сразу, стоило только гостям уйти.
+
+description: Я же остался в своей комнате покурить кальян и полазить в интернете.
+
+description: С одной стороны - день действительно получился запоминающимся.
+
+description: Может поэтому так жалко покидать родной город.
+
+description: Похоже сегодня бессонница тоже планирует мне мешать.
+
+description: Ну, хоть есть время немного поработать.

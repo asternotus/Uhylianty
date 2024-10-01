@@ -1,0 +1,10 @@
+image: transparent
+background: room_bg.png
+music: STOP
+description: К сожалению, нам нечего есть. Вряд ли мы сможем держаться и дальше.
+
+image: transparent
+description: Тебе не удалось спасти их жизни.
+
+image: transparent
+description: Их история закончилась печально, так и не начавшись.

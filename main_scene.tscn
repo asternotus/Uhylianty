@@ -1,0 +1,200 @@
+[gd_scene load_steps=11 format=3 uid="uid://dyyshcpj0fwju"]
+
+[ext_resource type="Script" path="res://main_scene.gd" id="1_eo0va"]
+[ext_resource type="Texture2D" uid="uid://ctucab3c3tous" path="res://backs/room_bg.png" id="2_guwc2"]
+[ext_resource type="Texture2D" uid="uid://i5jxl0q27ja1" path="res://icons/money_icon.png" id="3_5osja"]
+[ext_resource type="Texture2D" uid="uid://cv8yt8c0dnscb" path="res://icons/alarm_icon.png" id="3_e6ewx"]
+[ext_resource type="Texture2D" uid="uid://duo6omhhw770s" path="res://icons/food_icon.png" id="4_ucfex"]
+[ext_resource type="Texture2D" uid="uid://cffpi4eav17fi" path="res://icons/blackout_icon.png" id="4_y4r2d"]
+[ext_resource type="Texture2D" uid="uid://cjlepl4yse6hv" path="res://icons/house_icon.png" id="5_afrl1"]
+[ext_resource type="Texture2D" uid="uid://dc8f0tu58o426" path="res://icons/medicine_icon.png" id="6_mpitl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p4117"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+corner_detail = 1
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_syyd6"]
+bg_color = Color(1.01075e-06, 0.369195, 0.118582, 1)
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_eo0va")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(509.625, 513.618)
+scale = Vector2(1.00269, 1.00072)
+texture = ExtResource("2_guwc2")
+
+[node name="AlarmIcon" type="Sprite2D" parent="."]
+position = Vector2(82, 117)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_e6ewx")
+
+[node name="BlackoutIcon" type="Sprite2D" parent="."]
+position = Vector2(173, 117)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("4_y4r2d")
+
+[node name="MusicPlayer" type="AudioStreamPlayer2D" parent="."]
+
+[node name="MoneyIcon" type="Sprite2D" parent="."]
+position = Vector2(224, 390)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_5osja")
+
+[node name="FoodIcon" type="Sprite2D" parent="."]
+position = Vector2(420, 390)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("4_ucfex")
+
+[node name="HouseIcon" type="Sprite2D" parent="."]
+position = Vector2(609, 390)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_afrl1")
+
+[node name="MedicineIcon" type="Sprite2D" parent="."]
+position = Vector2(800, 390)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_mpitl")
+
+[node name="MoneyLabel" type="Label" parent="."]
+offset_left = 146.0
+offset_top = 456.0
+offset_right = 309.0
+offset_bottom = 498.0
+theme_override_font_sizes/font_size = 30
+text = "0
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FoodLabel" type="Label" parent="."]
+offset_left = 369.0
+offset_top = 456.0
+offset_right = 468.0
+offset_bottom = 498.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HouseLabel" type="Label" parent="."]
+offset_left = 559.0
+offset_top = 458.0
+offset_right = 654.0
+offset_bottom = 500.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MedicinesLabel" type="Label" parent="."]
+offset_left = 750.0
+offset_top = 460.0
+offset_right = 849.0
+offset_bottom = 502.0
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DateLabel" type="Label" parent="."]
+offset_left = 245.0
+offset_top = 49.0
+offset_right = 786.0
+offset_bottom = 153.0
+theme_override_font_sizes/font_size = 30
+text = "ТЕКСТ ДАТЫ"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AimDescriptionLabel" type="Label" parent="."]
+offset_left = 295.0
+offset_top = 152.0
+offset_right = 733.0
+offset_bottom = 244.0
+theme_override_font_sizes/font_size = 30
+text = "Сбежать из страны"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AimProgressBar" type="ProgressBar" parent="."]
+offset_left = 415.0
+offset_top = 244.0
+offset_right = 617.0
+offset_bottom = 282.0
+theme_override_styles/background = SubResource("StyleBoxFlat_p4117")
+theme_override_styles/fill = SubResource("StyleBoxFlat_syyd6")
+
+[node name="MainStatsLabels" type="VBoxContainer" parent="."]
+offset_left = 336.0
+offset_top = 171.0
+offset_right = 556.0
+offset_bottom = 349.0
+
+[node name="BarsContainer" type="HBoxContainer" parent="."]
+offset_left = 204.0
+offset_top = 558.0
+offset_right = 887.0
+offset_bottom = 629.0
+
+[node name="ButtonsHolder" type="GridContainer" parent="."]
+offset_left = 204.0
+offset_top = 629.0
+offset_right = 2481.0
+offset_bottom = 1932.0
+scale = Vector2(0.3, 0.3)
+theme_override_constants/h_separation = 100
+columns = 3
+
+[node name="BlackoutLabel" type="Label" parent="."]
+offset_left = 218.0
+offset_top = 51.0
+offset_right = 864.0
+offset_bottom = 256.0
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+offset_left = -1.0
+offset_top = 818.0
+offset_right = 1022.0
+offset_bottom = 1025.0
+
+[node name="DialogAvatar" type="Sprite2D" parent="."]
+position = Vector2(101, 918)
+scale = Vector2(0.2, 0.2)
+
+[node name="DialogLabel" type="RichTextLabel" parent="."]
+offset_left = 181.0
+offset_top = 894.0
+offset_right = 1014.0
+offset_bottom = 1025.0
+
+[node name="Blackout" type="ColorRect" parent="."]
+offset_right = 1025.0
+offset_bottom = 1025.0
+color = Color(0, 0, 0, 0)
+
+[node name="NightLabel" type="Label" parent="."]
+offset_left = 127.0
+offset_top = 396.0
+offset_right = 911.0
+offset_bottom = 497.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+
+[node name="EventNightLabel" type="Label" parent="."]
+offset_left = 127.0
+offset_top = 496.0
+offset_right = 911.0
+offset_bottom = 754.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+autowrap_mode = 3

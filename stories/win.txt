@@ -1,0 +1,10 @@
+image: transparent
+background: room_bg.png
+description: Мы успешно смогли пройти границу.
+
+description: Ещё рано говорить, что трудности позади.
+
+description: Однако здесь начинается новая история.
+
+music: STOP
+description: Спасибо тебе, за всё!

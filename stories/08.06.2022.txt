@@ -1,0 +1,123 @@
+background: room_bg.png
+date: 24 февраля 2022 года
+music: music/main_theme.mp3
+description: Иногда я завидую способности Макса и Инны к мгновенному засыпанию.
+
+description: Переизбыток эмоций особенно сильно заставляет меня бодрствовать всю ночь.
+
+description: В голове множество мыслей: про свой будущий день рождения, про переезд...
+
+description: Не смотря ни на что, нам так комфортно в этой квартире.
+
+description: Вряд ли мы сможем найти что-то похожее.
+
+music: STOP
+sound: sounds/missile_explosion.mp3
+description: ...
+
+description: Какого чёрта?
+
+description: Раздался звук уведомления в телеграме. Диана написала.
+
+image: story_chars/diana.png
+description: Ты слышал?
+
+image: chars/kostya.png
+description: Ещё как. Как думаешь, что это?
+
+image: story_chars/diana.png
+description: Не знаю, может коты так на крышу спрыгнули?
+
+description: Одновременно в двух разных районах города?
+
+image: story_chars/diana.png
+description: Ну да, по ходу ты прав.
+
+sound: sounds/missile_explosion.mp3
+description: ...
+
+image: story_chars/diana.png
+description: Что это такое?
+
+image: chars/kostya.png
+description: Я...я не знаю.
+
+image: story_chars/diana.png
+description: Зайди в одесский канал.
+
+description: Что там?
+
+image: story_chars/diana.png
+description: БЫСТРО!
+
+description: Во всех доступных мне телеграм каналах появилось видео, загруженное несколько секунд назад.
+
+image: story_chars/putin.png
+music: music/anxious_theme.mp3
+description: Граждане Донецка и Луганска 8 лет подвергаются унижениям и издевательству со стороны киевского режима.
+
+image: story_chars/putin.png
+description: Это вынуждает нас стремиться к демилитаризации и денацификации Украины.
+
+image: story_chars/putin.png
+description: Во исполнение ратифицированных федеральным собранием 22 февраля сего годна Договором о дружбе и вазимопомощи с ДНР и ЛНР...
+
+image: story_chars/putin.png
+description: Мною принято решение о проведении Специальной Военной Операции.
+
+description: Я действовал инстинктивно.
+
+description: Достал рюкзак, бросил в него зрядки от телефона, ноутбук, какую-то одежду и мои памятные подарки.
+
+description: После этого, зачем-то, передвинул кальян ближе к выходу из комнаты и побежал в комнату, где спали ребята.
+
+image: chars/inna.png
+background: inna_room_bg.png
+description: Что происходит?
+
+description: Буди Макса! Скорее!
+
+image: chars/inna.png
+description: Он не просыпается.
+
+description: Да хоть ударь его, главное быстрее!
+
+image: chars/max.png
+description: Что такое?
+
+sound: sounds/missile_explosion.mp3
+description: ...
+
+image: chars/max.png
+description: Ёб твою...
+
+description: Собирайте вещи и выходим. Немедленно!
+
+background: street_first_bg.png
+description: Мы в панике выскочили из дома. Макса приходилось практически тащить, ибо он всё ещё был очень сонным.
+
+description: Мы бежали, волоча за собой чемоданы и сумку.
+
+dsecription: Единственные доступное нам подвальное помещение — клуб настольных игр, к которому у меня был ключ.
+
+description: Добираться всего пять минут, но с ожиданием, что в любой момент нам придёт конец.
+
+description: Мысли путались. что так и не прошёл игру, не дописал код, забыл положить в холодильник мясо.
+
+description: А потом вспомнил про важные вещи и подарки, которые мы не успели взять с собой.
+
+description: Вместо ожидаемого страха, меня одолевало чувство вины и обиды.
+
+background: near_club_bg.png
+description: Недалеко от клуба мы увидели Диану и её парня.
+
+image: story_chars/diana.png
+description: Заходите живо!
+
+background: board_games_bg.png
+music: STOP
+description: Мы вошли и быстро спустились вниз. Затем закрыли дверь и проверили все окна.
+
+description: Никто ничего не говорил, да и что было говорить?
+
+description: Мы просто сели за стол и достали телефоны, с напряжением ожидая новостей.

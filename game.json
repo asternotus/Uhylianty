@@ -1,0 +1,99 @@
+{
+  "player_stats": {
+	"year": 2022,
+	"month": 6,
+	"day": 1,
+	"money": 20000,
+	"food": 18,
+	"house": 5,
+	"medicines": 1,
+	"search_info_progress": 0,
+	"hold_money_progress": 0,
+	"leave_country_progress": 0,
+	"day_remains": 62
+  },
+  "friends": {
+	"inna": {
+	  "id": "inna",
+	  "name": "ИННА",
+	  "mood": 6,
+	  "is_sick": false,
+	  "is_alive": true,
+	  "actions": [
+		"Поговорить",
+		"Искать информацию",
+		"Работать",
+		"Укрепить дом"
+	  ],
+	  "default_actions": [
+		"Поговорить",
+		"Искать информацию",
+		"Работать",
+		"Укрепить дом"
+	  ],
+	  "actions_blackout": [
+		"Поговорить",
+		"Укрепить дом"
+	  ],
+	  "actions_sick": [
+		"Лечить"
+	  ],
+	  "blocked_actions": []
+	},
+	"max": {
+	  "id": "max",
+	  "name": "МАКС",
+	  "mood": 5,
+	  "is_sick": false,
+	  "is_alive": true,
+	  "actions": [
+		"Поговорить",
+		"Искать информацию",
+		"Купить продукты",
+		"Поддержать всех"
+	  ],
+	  "default_actions": [
+		"Поговорить",
+		"Искать информацию",
+		"Купить продукты",
+		"Поддержать всех"
+	  ],
+	  "actions_blackout": [
+		"Поговорить",
+		"Купить продукты"
+	  ],
+	  "actions_sick": [
+		"Лечить"
+	  ],
+	  "blocked_actions": []
+	},
+	"kostya": {
+	  "id": "kostya",
+	  "name": "КОСТЯ",
+	  "mood": 7,
+	  "is_sick": false,
+	  "is_alive": true,
+	  "actions": [
+		"Поговорить",
+		"Искать информацию",
+		"Работать",
+		"Купить лекарства"
+	  ],
+	  "default_actions": [
+		"Поговорить",
+		"Искать информацию",
+		"Работать",
+		"Купить лекарства"
+	  ],
+	  "actions_blackout": [
+		"Поговорить",
+		"Искать информацию",
+		"Купить лекарства"
+	  ],
+	  "actions_sick": [
+		"Лечить"
+	  ],
+	  "blocked_actions": []
+	}
+  }
+}

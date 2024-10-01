@@ -1,0 +1,10 @@
+image: transparent
+background: room_bg.png
+music: STOP
+description: Наш дом не выдержал ракетных обстрелов. А ведь всё могло закончиться иначе.
+
+image: transparent
+description: Тебе не удалось спасти их жизни.
+
+image: transparent
+description: Их история закончилась печально, так и не начавшись.
